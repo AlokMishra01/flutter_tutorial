@@ -1,10 +1,7 @@
 void main()
 {
-	List gfg = [];
-	gfg[0] = 'Dart';
-	gfg[1] = 'For';
-	gfg[2] = 'Flutter';
+	List gfg = ['Dart', 'For', 'Flutter'];
 	
 	print(gfg);
-	print(gfg[0]);
+	print(gfg[2]);
 }

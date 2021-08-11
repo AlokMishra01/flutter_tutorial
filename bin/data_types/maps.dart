@@ -1,7 +1,8 @@
 void main() {
-  Map dff = new Map();
-  dff['First'] = 'Dart';
-  dff['Second'] = 'For';
-  dff['Third'] = 'Flutter';
+  Map dff = {
+    'First': 'Dart',
+    'Second': 'For',
+    'Third': 'Flutter'
+  };
   print(dff);
 }

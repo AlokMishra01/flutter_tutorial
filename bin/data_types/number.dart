@@ -1,10 +1,10 @@
 void main() {
 	
   // declare an integer
-  int num1 = 2;			
+  int num1 = 3;			
   
   // declare a double value
-  double num2 = 1.5;
+  double num2 = 1.0;
 
   // print the values
   print(num1);

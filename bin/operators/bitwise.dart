@@ -4,10 +4,13 @@ void main()
 	int b = 7;
 
 	// Performing Bitwise AND on a and b
+  // 001 & 110 = 000
+  // 001 | 110 = 111
 	var c = a & b;
 	print(c);
 
 	// Performing Bitwise OR on a and b
+  // 00001 | 00101 = 00101
 	var d = a | b;
 	print(d);
 

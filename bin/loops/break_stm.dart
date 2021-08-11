@@ -1,16 +1,16 @@
 import 'dart:math';
 
 void main() {
-  const int MAX = 30;
+  int num = 30;
 
   while (true) {
-    var num = new Random().nextInt(MAX);
+    num = num + 5;
+    if (num == 55) {
+      continue;
+    }
     print("$num");
-
-    if (num == 22) {
+    if (num == 60) {
       break;
     }
   }
-
-  print("\n");
 }

@@ -5,6 +5,7 @@ void main() {
   // Declaring another variable
   double gfg2 = 23.7;
   bool gfg3 = false;
+
   
   // Declaring multiple variable
   String gfg4 = "This is", gfg5 = "multiple variable declaration";

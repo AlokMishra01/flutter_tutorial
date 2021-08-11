@@ -3,8 +3,10 @@ void main() {
   var a2 = ["A", "B", "C"];
 
   for (int i = 0; i < a1.length; i++) {
+    print('i = $i');
     for (int j = 0; j < a2.length; j++) {
-      print(a1[i] + a2[j]);
+      // print(a1[i] + a2[j]);
+      print('j = $j');
     }
   }
 }

@@ -1,6 +1,6 @@
 void main() {
-  var vals = [1, 2, 3, 4, 5];
+  var vals = [1, 2, 4, 5, 3];
   for (var e in vals) {
-    print(e * e);
+    print('Current Element: $e');
   }
 }
