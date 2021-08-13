@@ -7,5 +7,5 @@ void main()
 	print(a is String);
 
 	// Using is! to compare
-	print(b is !int);
+	print(b is! double);
 }

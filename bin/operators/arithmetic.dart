@@ -21,13 +21,13 @@ void main()
 
 	// Division of a and b
 	var g = b / a;
-	print("The quotient of a and b is $g");
+	print("The division of a and b is $g");
 
 	// Using ~/ to divide a and b
 	var h = b ~/ a;
 	print("The quotient of a and b is $h");
 
 	// Remainder of a and b
-	var i = b % a;
+	var i = b % a; // 3 / 2
 	print("The remainder of a and b is $i");
 }

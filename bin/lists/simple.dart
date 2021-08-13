@@ -1,14 +1,18 @@
 void main() {
-  var vals = <int>[1, 2, 3, 4, 5];
+  List<int> vals = [];
 
-  var e1 = vals.first;
-  var e2 = vals.last;
-  var e3 = vals.elementAt(1);
+  vals = [1, 2, 3, 4, 5]; /// 0 ,1 ,2, ..............
 
-  var len = vals.length;
+  vals[2] = 9;
 
-  print('There are $len elements in the list');
-  print('The first element is $e1');
-  print('The last element is $e2');
-  print('The second element is $e3');
+  print(vals[2]);
+  
+  List strs = ['one', 'two', 1, 1.5, false];
+
+  strs[0] = '''              Hello Class.
+We are studing flutter''';
+
+  strs[1] = 'Hello';
+
+  print(strs);
 }

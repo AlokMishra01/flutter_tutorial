@@ -5,25 +5,25 @@ void main()
 
 	// Greater between a and b
 	var c = a > b;
-	print("a is greater than b is $c");
+	print("a is greater than b is $c"); // false
 
 	// Smaller between a and b
 	var d = a < b;
-	print("a is smaller than b is $d");
+	print("a is smaller than b is $d"); // true
 
 	// Greater than or equal to between a and b
 	var e = a >= b;
-	print("a is greater than b is $e");
+	print("a is greater than b is $e"); // false
 
 	// Less than or equal to between a and b
 	var f = a <= b;
-	print("a is smaller than b is $f");
+	print("a is smaller than b is $f"); // true
 
 	// Equality between a and b
 	var g = b == a;
-	print("a and b are equal is $g");
+	print("a and b are equal is $g"); // false
 
 	// Unequality between a and b
 	var h = b != a;
-	print("a and b are not equal is $h");
+	print("a and b are not equal is $h"); // true
 }

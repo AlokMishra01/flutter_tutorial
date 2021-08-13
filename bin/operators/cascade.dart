@@ -26,6 +26,5 @@ void main()
 	geek1.add();
 
 	// Using Cascade Notation
-	geek2..set(3, 4)
-		..add();
+	geek2..set(3, 4)..add();
 }
