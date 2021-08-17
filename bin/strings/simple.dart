@@ -1,10 +1,10 @@
 void main() {
   var text = "There are six falcons";
-  print(text);
+  // print(text);
 
-  var len = text.length;
-  print('The string has ' + len.toString() + ' characters');
+  // var len = text.length;
+  // print('The string has ' + len.toString() + ' characters');
 
   var word = 'falcon ';
-  print(word * 3);
+  print(word * 5);
 }

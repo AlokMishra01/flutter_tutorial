@@ -1,11 +1,53 @@
 void main() {
-  var data = {'name': 'John Doe', 'occupation': 'gardener'};
-  print(data);
+  // List l = [[1, 5 , 7], 1 ,[6,8,7]];
+  // print(l);
 
-  print(data.runtimeType);
+  // for (var item in l) {
+  //   if (item is List) {
+  //       item.forEach(
+  //         (element) 
+  //         {
+  //           print('inner list $element');
+  //         }
+  //       );
+  //   } else {
+  //     print('Others: $item');
+  //   }
+  // }
+  // Using Map Literals 
+  Map data = {
+    'name': 'John Doe', 
+    'occupation': 'gardener',
+    'address': {
+      'address': 'Kathamandu',
+      'ward': 10
+    },
+    'exam_on': [12, 15, 17],
+  };
+  // print(data);
 
-  var words = <int, String>{1: 'sky', 2: 'falcon', 3: 'rock'};
-  print(words);
+  // // Using Map Constructor 
+  Map m = Map();
+  m.addAll(
+    {
+      'name': 'John Doe', 
+      'occupation': 'gardener',
+      1: 2.3,
+    
+    },
+  );
+  // print(m);
+  Map v = {};
+  var empty = v.isEmpty;
+  print(empty);
+  var notempty = v.isNotEmpty;
+  print(notempty);
+  var k = m.keys;
+  print(k);
+  var val = m.values;
+  print(val);
+  var length = m.length;
+  print(length);
 
-  print(words.runtimeType);
+  // print(m);
 }

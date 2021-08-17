@@ -1,36 +1,36 @@
 import 'dart:io';
 
 void main() {
-  var vals = <int>[1, 2, 3, 4, 5];
+  var vals = [1, 2, 3, 4, 5];
 
-  vals.forEach((e) {
-    stdout.write("$e ");
-  });
-  print("");
+  // vals.forEach((e) {
+  //   print("$e");
+  // });
+  // print("");
 
-  for (var e in vals) {
-    stdout.write("$e ");
-  }
-  print("");
+  // for (var e in vals) {
+  //   stdout.write("$e ");
+  // }
+  // print("");
 
-  for (int i = 0; i < vals.length; i++) {
-    stdout.write("${vals[i]} ");
-  }
-  print("");
+  // for (int i = 0; i < vals.length; i++) {
+  //   stdout.write("${vals[i]} ");
+  // }
+  // print("");
 
-  var lit = vals.iterator;
+  // var lit = vals.iterator;
 
-  while (lit.moveNext()) {
-    stdout.write("${lit.current} ");
-  }
+  // while (lit.moveNext()) {
+  //   stdout.write("${lit.current} ");
+  // }
 
-  print("");
+  // print("");
 
-  int i = 0;
+  // int i = 0;
 
-  while (i < vals.length) {
-    stdout.write("${vals[i]} ");
-    i++;
-  }
-  print("");
+  // while (i < vals.length) {
+  //   stdout.write("${vals[i]} ");
+  //   i++;
+  // }
+  // print("");
 }

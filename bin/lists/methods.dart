@@ -1,27 +1,42 @@
 void main(List<String> args) {
   List ls = [8, 9];
-  List lq = [1, 4, 6, 8];
+  List lq = [1, 4, 6, 8, 1];
 
-  // ls.add(1);
+  // ls.add(25);
   // ls.add(5);
   // ls.addAll([7, 2, 19]);
-  ls.addAll(lq);
+  // ls.addAll(lq);
+  // print(ls);
+  // print(lq);
 
-  print(ls);
+  // print(lq);
   // lq.clear();
-  bool b = ls.contains(3);
+  // lq.removeAt(1);
+  // lq.remove(1);
+  // lq.removeWhere( /// 0, 1, 2, .................
+  //   (e) {
+  //     print('Current element $e');
+  //     print(e == 8);
+  //     return e == 8;
+  //   }
+  // );
+  // print(lq);
+  // bool b = ls.contains(9);
+  // print(b);
 
-  ls.insert(2, 33);
-  ls.insertAll(0, [43, 58]);
+  // lq.insert(2, 33); /// (pos, value)
+  // lq.insertAll(3, ls);
+  // print(lq);
 
-  var j = ls.join('|');
+  // var j = lq.join('->');
+  // print(j);
 
-  // [1, 4, 6, 9]
-  // lq.removeRange(1, 3);
+  // lq.removeRange(1, 4);
+  // print(lq);
 
-  lq.sort((element1, element2) {
-    print('$element1, $element2');
-    return element1;
-  });
+  // lq.sort();
+  // print(lq);
 
+  // var l = lq.reversed;
+  // print(l);
 }
